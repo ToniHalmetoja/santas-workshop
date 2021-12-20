@@ -1,0 +1,24 @@
+{
+  "name": "santas-workshop",
+  "version": "1.0.0",
+  "description": "A school project!",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build source/stylesrc.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniHalmetoja/santas-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniHalmetoja/santas-workshop/issues"
+  },
+  "homepage": "https://github.com/ToniHalmetoja/santas-workshop#readme"
+}
