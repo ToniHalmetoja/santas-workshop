@@ -1,2 +1,2 @@
 # santas-workshop
-A school project!
+A school project for group Jelly Beans!
