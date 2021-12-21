@@ -495,6 +495,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Yellowtail;
 }
 
+.font-body {
+  font-family: Source Sans Pro;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -507,6 +511,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-primary-default {
+  --tw-text-opacity: 1;
+  color: rgb(99 136 29 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
