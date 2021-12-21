@@ -6,6 +6,21 @@ module.exports = {
       "body": ["Source Sans Pro"]
     },
     extend: {
+      colors: {
+        primary: {
+          default: "#63881D",
+          hover: "#4F6D16",
+          active: "#31440E",
+          disabled: "rgba(49, 68, 14, 0.8)"
+        },
+        secondary: {
+          default: "#A90307",
+          hover: "#740508",
+          active: "#310203"
+        },
+        pearl: "#E7DEC9",
+        crayolasGold: "#E2C289"
+      },     
     },
   },
   plugins: [],
