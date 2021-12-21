@@ -508,7 +508,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-body {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
 }
 
 .text-sm {
