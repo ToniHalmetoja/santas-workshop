@@ -476,6 +476,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'background\.jpeg\'\)\] {
+  background-image: url('background.jpeg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -496,7 +508,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-body {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
 }
 
 .text-sm {
@@ -511,11 +523,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-primary-default {
-  --tw-text-opacity: 1;
-  color: rgb(99 136 29 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
