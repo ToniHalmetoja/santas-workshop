@@ -20,7 +20,13 @@ module.exports = {
         },
         pearl: "#E7DEC9",
         crayolasGold: "#E2C289"
-      },     
+      },
+      fontSize: {
+        h1: "72px",
+        h2: "48px",
+        h3: "36px",
+        bodyText: "20px",
+      }
     },
   },
   plugins: [],
