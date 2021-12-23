@@ -19,14 +19,19 @@ module.exports = {
           active: "#310203"
         },
         pearl: "#E7DEC9",
-        crayolasGold: "#E2C289"
+        crayolasGold: "#E2C289",
+        backgroundTransparent: "rgba(0, 0, 0,0.5)"
       },
       fontSize: {
-        h1: "72px",
-        h2: "48px",
-        h3: "36px",
-        bodyText: "20px",
-      }
+        "h1": "72px",
+        "h2": "48px",
+        "h3": "36px",
+        "bodyText": "20px",
+      },
+      margin: {
+        "28px": "28px",
+      },
+      
     },
   },
   plugins: [],
