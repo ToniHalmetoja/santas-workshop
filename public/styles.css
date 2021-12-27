@@ -482,8 +482,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-80 {
-  height: 20rem;
+.h-newsletterHeigtMobile {
+  height: 318px;
 }
 
 .h-newsletterInputHeightMobile {

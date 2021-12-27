@@ -30,7 +30,10 @@ module.exports = {
         "h2": "48px",
         "h3": "36px",
         "bodyText": "20px",
-        "newsletterButton": "18px",
+        
+        "newsletterButtonMobile": "18px",
+        "newsLetterTextTablet": "24px",
+        "newsLetterTextDesktop": "48px",
       },
       margin: {
         "28px": "28px",
@@ -38,10 +41,25 @@ module.exports = {
       width: {
         "newsletterWidthMobile": "219px",
         "newsletterInputWidthMobile": "108px",
+
+        "newsletterWidthTablet": "283px",
+        "newsletterInputWidthTablet": "140px",
+
+        "newsletterWidthDesktop": "465px",       
+        "newsletterInputWidthDesktop": "229px" 
       },
       height: {
+        "newsletterHeigtMobile": "318px",
         "newsletterInputHeightMobile": "25px",
         "newsletterButtonHeightMobile": "32px",
+
+        "newsletterHeigtTablet": "342px",
+        "newsletterInputHeightTablet": "27px",
+        "newsletterButtonHeightTablet": "35px",
+
+        "newsletterHeigtDesktop": "523px",        
+        "newsletterInputHeightDesktop": "41px",
+        "newsletterButtonHeightDesktop": "52px",
       },
       borderRadius: {
         "newsLetter": "29px",
