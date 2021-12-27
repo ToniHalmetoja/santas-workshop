@@ -433,6 +433,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-scale-y: 1;
   --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -451,6 +452,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+.mt-28px {
+  margin-top: 28px;
 }
 
 .block {
@@ -519,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-backgroundTransparent {
+  background-color: rgba(0, 0, 0,0.5);
+}
+
 .bg-\[url\(\'background\.jpeg\'\)\] {
   background-image: url('background.jpeg');
 }
@@ -529,6 +538,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -559,6 +572,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.text-h3 {
+  font-size: 36px;
+}
+
+.text-bodyText {
+  font-size: 20px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -566,6 +587,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-crayolasGold {
+  --tw-text-opacity: 1;
+  color: rgb(226 194 137 / var(--tw-text-opacity));
+}
+
+.text-pearl {
+  --tw-text-opacity: 1;
+  color: rgb(231 222 201 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
