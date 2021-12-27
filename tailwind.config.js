@@ -15,22 +15,39 @@ module.exports = {
         },
         secondary: {
           default: "#A90307",
+          defaultWithOpacity: "rgba(169, 3, 7, 0.8)",
           hover: "#740508",
           active: "#310203"
         },
         pearl: "#E7DEC9",
         crayolasGold: "#E2C289",
-        backgroundTransparent: "rgba(0, 0, 0,0.5)"
+        backgroundTransparent: "rgba(0, 0, 0,0.5)",
+        backgroundInput: "#C4C4C4",
+        black: "#000000",
       },
       fontSize: {
         "h1": "72px",
         "h2": "48px",
         "h3": "36px",
         "bodyText": "20px",
+        "newsletterButton": "18px",
       },
       margin: {
         "28px": "28px",
       },
+      width: {
+        "newsletterWidthMobile": "219px",
+        "newsletterInputWidthMobile": "108px",
+      },
+      height: {
+        "newsletterInputHeightMobile": "25px",
+        "newsletterButtonHeightMobile": "32px",
+      },
+      borderRadius: {
+        "newsLetter": "29px",
+        "newsletterInput": "10px",
+        "newsLetterButton": "20px",
+      }
       
     },
   },
