@@ -46,7 +46,9 @@ module.exports = {
         "newsletterInputWidthTablet": "140px",
 
         "newsletterWidthDesktop": "465px",       
-        "newsletterInputWidthDesktop": "229px" 
+        "newsletterInputWidthDesktop": "229px",
+
+        "santaButtonWidthMobile": "104px",
       },
       height: {
         "newsletterHeigtMobile": "318px",
@@ -60,11 +62,15 @@ module.exports = {
         "newsletterHeigtDesktop": "523px",        
         "newsletterInputHeightDesktop": "41px",
         "newsletterButtonHeightDesktop": "52px",
+
+        "santaButtonHeighthMobile": "32px",
       },
       borderRadius: {
         "newsLetter": "29px",
         "newsletterInput": "10px",
         "newsLetterButton": "20px",
+
+        "santaButton": "20px",
       }
       
     },
