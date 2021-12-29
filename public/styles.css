@@ -884,6 +884,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-buttonSantaTabletBottom {
+    bottom: 22%;
+  }
+
+  .md\:left-buttonSantaTabletLeft {
+    left: 27%;
+  }
+
   .md\:m-5 {
     margin: 1.25rem;
   }
@@ -901,14 +909,35 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .md\:h-santaButtonHeighthTablet {
+    height: 57px;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-santaButtonWidthTablet {
+    width: 185px;
+  }
+
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:mr-20 {
     margin-right: 5rem;
+  }
+
+  .lg\:w-santaImgWidth {
+    width: 150%;
   }
 
   .lg\:basis-2\/5 {
