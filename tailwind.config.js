@@ -25,6 +25,9 @@ module.exports = {
         backgroundInput: "#C4C4C4",
         black: "#000000",
       },
+      dropShadow: {
+        dropShadowNewsletterBtn: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+      },
       fontSize: {
         "h1": "72px",
         "h2": "48px",
