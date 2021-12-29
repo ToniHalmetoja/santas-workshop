@@ -54,6 +54,7 @@ module.exports = {
 
         "santaButtonWidthMobile": "104px",
         "santaButtonWidthTablet": "185px",
+        "santaButtonWidthDesktop": "310px",
 
         "santaImgWidth": "150%",
       },
@@ -72,6 +73,7 @@ module.exports = {
 
         "santaButtonHeighthMobile": "32px",
         "santaButtonHeighthTablet": "57px",
+        "santaButtonHeighthDesktop": "100px",
       },
       borderRadius: {
         "newsLetter": "29px",
@@ -79,6 +81,7 @@ module.exports = {
         "newsLetterButton": "20px",
 
         "santaButton": "20px",
+        "santaButtonLg": "100px"
       }
       
     },
