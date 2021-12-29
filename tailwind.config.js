@@ -38,6 +38,10 @@ module.exports = {
       margin: {
         "28px": "28px",
       },
+      spacing: {
+        "buttonSantaTabletLeft": "27%",
+        "buttonSantaTabletBottom": "22%",
+      },
       width: {
         "newsletterWidthMobile": "219px",
         "newsletterInputWidthMobile": "108px",
@@ -49,6 +53,9 @@ module.exports = {
         "newsletterInputWidthDesktop": "229px",
 
         "santaButtonWidthMobile": "104px",
+        "santaButtonWidthTablet": "185px",
+
+        "santaImgWidth": "150%",
       },
       height: {
         "newsletterHeigtMobile": "318px",
@@ -64,6 +71,7 @@ module.exports = {
         "newsletterButtonHeightDesktop": "52px",
 
         "santaButtonHeighthMobile": "32px",
+        "santaButtonHeighthTablet": "57px",
       },
       borderRadius: {
         "newsLetter": "29px",
