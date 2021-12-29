@@ -859,12 +859,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .md\:bottom-16 {
-    bottom: 4rem;
+  .md\:bottom-buttonSantaTabletBottom {
+    bottom: 22%;
   }
 
-  .md\:left-buttonSantaTablet {
-    left: 20%;
+  .md\:left-buttonSantaTabletLeft {
+    left: 27%;
   }
 
   .md\:m-5 {
@@ -888,8 +888,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 57px;
   }
 
-  .md\:w-72 {
-    width: 18rem;
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-santaButtonWidthTablet {
@@ -909,6 +909,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1024px) {
   .lg\:mr-20 {
     margin-right: 5rem;
+  }
+
+  .lg\:w-santaImgWidth {
+    width: 150%;
   }
 
   .lg\:basis-2\/5 {

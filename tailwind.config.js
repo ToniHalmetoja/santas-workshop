@@ -39,7 +39,8 @@ module.exports = {
         "28px": "28px",
       },
       spacing: {
-        "buttonSantaTablet": "20%",
+        "buttonSantaTabletLeft": "27%",
+        "buttonSantaTabletBottom": "22%",
       },
       width: {
         "newsletterWidthMobile": "219px",
@@ -53,6 +54,8 @@ module.exports = {
 
         "santaButtonWidthMobile": "104px",
         "santaButtonWidthTablet": "185px",
+
+        "santaImgWidth": "150%",
       },
       height: {
         "newsletterHeigtMobile": "318px",
