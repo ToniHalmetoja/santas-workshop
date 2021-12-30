@@ -39,7 +39,7 @@ module.exports = {
         },
         pearl: "#E7DEC9",
         crayolasGold: "#E2C289",
-        backgroundTransparent: "rgba(0, 0, 0,0.5)",
+        backgroundTransparent: "rgba(0, 0, 0,0.3)",
         backgroundInput: "#C4C4C4",
         black: "#000000",
       },
@@ -47,7 +47,7 @@ module.exports = {
         dropShadowNewsletterBtn: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
       fontSize: {
-        "h1": "72px",
+        "h1": "44px",
         "h2": "48px",
         "h3": "36px",
         "bodyText": "20px",
@@ -95,6 +95,9 @@ module.exports = {
         "santaButtonHeighthMobile": "32px",
         "santaButtonHeighthTablet": "57px",
         "santaButtonHeighthDesktop": "100px",
+      },
+      minHeight: {
+        "bodyHeight": "calc(100vh - 200px)",
       },
       borderRadius: {
         "newsLetter": "29px",
