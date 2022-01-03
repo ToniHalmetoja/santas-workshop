@@ -116,6 +116,13 @@
                     <a href="mailto:santa@claus.com">santa@claus.com</a>    
                 </p>
             </footer>
+			<div id="cookieDiv" class="bg-gradient-to-t from-pearl to-crayolasGold h-40 fixed bottom-0 right-0 left-0 flex flex-col items-center">
+				<p class="text-center mt-8 mb-6">
+					Santa´s lovely cookies <br />
+					Lorem ipsum dolor sit amet consectetur
+				</p>
+				<button id="cookieBtn" class="text-pearl bg-primary-default drop-shadow-dropShadowNewsletterBtn rounded-santaButton p-2 px-4 hover:bg-primary-hover">Accept</button>
+			</div>
     </body>
     <script>
         const menu = document.querySelector(".mobile-menu");
@@ -126,6 +133,12 @@
              const santaImg = document.getElementById("santaImg");
              const santaSection = document.getElementById("santaSection");
              const audio = new Audio('Feliz_Navidad.mp3');
+			 const cookieDiv = document.getElementById("cookieDiv");
+			 const cookieBtn = document.getElementById("cookieBtn");
+
+			 cookieBtn.addEventListener("click", () => {
+				 cookieDiv.classList.add("hidden");
+			 });
 
 
              btn.addEventListener("click", () => {
